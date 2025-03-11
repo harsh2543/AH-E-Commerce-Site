@@ -1,0 +1,108 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    padding: 0 10px;
+    background-image: url(image4.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;    
+}
+.container
+{
+   
+    max-width: 500px;
+    width: 100%;
+    margin: 5px auto;
+    margin-bottom: 7px;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0,0,0,1);
+   }
+.container .title
+{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #ff6347;
+    text-transform: uppercase;
+    text-align: center;
+}
+.container .form
+{
+    width: 100%;
+}
+.container .form .input_field
+{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.container .form .input_field label
+{
+    width: 200px;
+    margin: 10px;
+    font-size: 14px;
+}
+.container .form .input_field .input
+{
+    width: 100%;
+    outline: none;
+    border: 1px solid #ff6347;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.5s ease;
+}
+.container .form .input_field .textarea
+{
+    width: 100%;
+    outline: none;
+    border: 1px solid #ff6347;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.5s ease;
+    resize: none;
+}
+.container .form .input_field .selectbox
+{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ff6347;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 3px;
+    outline: none;
+}
+.container .form .input_field .btn
+{
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 0;
+    background-color: #ff6347;
+    color: white;
+}
+.container .form .input_field .btn:hover
+{
+    background: #222;
+    color: #ff6347;
+}
+.container label{
+    color: #fff;
+}
+p{
+    color: #fff;
+}
+.selectbox option{
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+}
